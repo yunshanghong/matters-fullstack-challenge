@@ -1,18 +1,17 @@
-/**
- * This is an incomplete script of client app. Please
- * make it live with features we requested. :)
- *
- */
+import React from 'react';
+import { Route, BrowserRouter } from 'react-router-dom';
 
-import React from 'react'
-import { render } from 'react-dom'
+import { render } from 'react-dom';
+import Home from './pages/home';
+import ArticlePage from './pages/ArticlePage';
 
-const App = (): React.ReactElement => {
-  return (
-    <section>
-      Hello, world! :)
-    </section>
-  )
+const App = (props: any): React.ReactElement => {
+    return (
+        <BrowserRouter>
+            <Route path="/article/:id" component={ArticlePage} exact={true} />
+            <Route path="/" component={Home} exact={true} />
+        </BrowserRouter>
+    )
 }
 
 render(<App />, document.getElementById('app'))
