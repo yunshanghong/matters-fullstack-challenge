@@ -3,12 +3,12 @@
 Start the project 
 
 * Install all the dependencies 
-$cd server; npm install 
-$cd client; npm install  
+> $cd server; npm install 
+> $cd client; npm install  
 
 * Run the server side and client side project
-$cd server; npm run start
-$cd client; npm run start
+> $cd server; npm run start
+> $cd client; npm run start
 
 
 # Full-stack Engineer Written Challenge
