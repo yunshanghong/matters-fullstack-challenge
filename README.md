@@ -21,7 +21,7 @@ Start the project
 
 * Assume that you are building a discussion forum similar with [Hacker News](https://news.ycombinator.com/). The product will be very popular, and your team made the following projection: monthly traffic of 30k page views and 5k posts in the first year, and monthly traffic of 300m page views and 500k posts in the second year. How would you choose your frontend and backend technologies, infrastructures and deploying methods? What methods will you use in scaling your platform and envovling the infrastructures?
 
-> First, I will choose React or Angular framework to be the fronted infrastructure of the forum and nodejs as the backend service of the forum. Because the forum is very popular, I need to design an asynchronous service with flexibility to ensure the every person works fine and are not blocked by others. Nodejs, React, and Agular match the asynchronous need with flexibility.
+> First, I will choose React or Angular framework to be the fronted infrastructure of the forum and nodejs as the backend service of the forum. Because the forum is very popular, I need to design an asynchronous service with flexibility to ensure that every person works fine and are not blocked by others. Nodejs, React, and Agular match the asynchronous need with flexibility.
 
 > Second, distributed system is important for a big famous website, especially the forum being full of people. Therefore, I would choose docker to help balance the pressure of the website. Besides, with docker, we can easily extend our service or microservice. 
 
